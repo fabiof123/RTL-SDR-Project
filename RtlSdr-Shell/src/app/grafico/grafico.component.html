@@ -1,0 +1,19 @@
+<div class="divGrafico">
+    <h2>Lettura con Id: {{lettura?.id}} del {{lettura?.data}}</h2>
+    <canvas
+        baseChart
+        class="chart"
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [type]="lineChartType"
+    ></canvas>
+    <p>Frequenza [MHz]</p>
+    <!--<canvas
+        baseChart
+        class="chart"
+        [data]="lineChartData"
+        [options]="lineChartOptions"
+        [type]="lineChartType"
+    ></canvas>-->
+    <!--<div echarts [options]="options" class="demo-chart"></div>-->
+</div>

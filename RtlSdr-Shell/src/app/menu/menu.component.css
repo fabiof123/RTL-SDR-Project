@@ -1,0 +1,23 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.mappa{
+    height: 100%;
+    width: 100%;
+}
+
+.tabella{
+    height: 100%;
+    width: 100%;
+}

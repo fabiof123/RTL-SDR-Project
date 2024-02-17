@@ -1,0 +1,66 @@
+@if(markerInizializzati){
+  <div class="div">
+    <div class="mappaDiv">
+      <google-map #map
+      height="94vh"
+      width="100%"
+      [center]="center"
+      [zoom]="zoom"
+      (mapInitialized)="handleMapInitializad($event)"
+      (mapClick)="mapClick($event)">
+      <!--(mapInitialized)="handleMapInitializad($event)"-->
+      <!--<map-marker *ngFor="let marker of markers" [position]="marker.Position"></map-marker>-->
+      <!--@for (marker of markers; track marker) {
+          <map-marker [position]="marker.Position" [options]="markerOptions" (mapClick)="marckerPosition($event)"/>
+        }-->
+    </google-map>
+    </div>
+    <div class="seleziobatoDiv">
+      @if (!Selezionato) {
+        <div class="PuntoNonSelezionato" ><h1 class="PuntoNonSelezionatoText">Seleziona una posizione per visualizzare i dettagli</h1></div>
+      }
+      @if (Selezionato) {
+        <div class="divSelezionato">
+          <h2>Posizione selezionata</h2>
+          <h3>Latitudine: {{Latitudine}}</h3>
+          <h3>Longitudine: {{Longitudine}}</h3>
+          <div class="filtri">
+            <mat-divider></mat-divider>
+            <div class="divBottoneFiltro">
+              <button mat-button color="primary" (click)="mostraFiltri($event)">Filtri</button>
+            </div>
+            @if (MostraFiltri) {
+              <div class="divSelectorFiltro">
+                <select #sel class="selectFiltro" (change)="cambioFiltro(sel.value)">
+                  <option value="tutte" selected>Tutte le frequenze</option>
+                  @for (frequenza of filtriFrequenze; track frequenza) {
+                    <option [value]="frequenza.frequenzaIniziale+'/'+frequenza.frequenzaFinale">{{frequenza.frequenzaIniziale}} - {{frequenza.frequenzaFinale}}</option>
+                  }
+                </select>
+              </div>
+            }
+            <mat-divider></mat-divider>
+            <div class="divLetture">
+              @for (lettura of letture; track lettura) {
+                <mat-card>
+                  <mat-card-header>
+                    <mat-card-title>ID: {{lettura.id}}</mat-card-title>
+                    <mat-card-subtitle>{{lettura.data}}</mat-card-subtitle>
+                  </mat-card-header>
+                  <mat-card-content>
+                    <p>Frequenza iniziale: {{lettura.frequenzaIniziale}}</p>
+                    <p>FrequenzaFinale: {{lettura.frequenzaFinale}}</p>
+                  </mat-card-content>
+                  <mat-card-actions align="end">
+                    <button mat-raised-button color="primary" (click)="vedi(lettura.id)">VEDI</button>
+                    <mat-divider></mat-divider>
+                  </mat-card-actions>
+                </mat-card>
+              }
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+}

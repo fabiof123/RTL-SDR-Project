@@ -1,0 +1,43 @@
+<table mat-table [dataSource]="letture" class="mat-elevation-z8">
+
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef class="headers"> ID </th>
+      <td mat-cell *matCellDef="let element" class="content"> {{element.id}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="data">
+      <th mat-header-cell *matHeaderCellDef class="headers"> DATA </th>
+      <td mat-cell *matCellDef="let element" class="content"> {{element.data}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="latitudine">
+      <th mat-header-cell *matHeaderCellDef class="headers"> LATITUDINE </th>
+      <td mat-cell *matCellDef="let element" class="content"> {{element.latitudine}} </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="longitudine">
+      <th mat-header-cell *matHeaderCellDef class="headers"> LONGITUDINE </th>
+      <td mat-cell *matCellDef="let element" class="content"> {{element.longitudine}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="frequenzaIniziale">
+        <th mat-header-cell *matHeaderCellDef class="headers"> FREQ. INIZIALE </th>
+        <td mat-cell *matCellDef="let element" class="content"> {{element.frequenzaIniziale}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="frequenzaFinale">
+        <th mat-header-cell *matHeaderCellDef class="headers"> FREQ. FINALE </th>
+        <td mat-cell *matCellDef="let element" class="content"> {{element.frequenzaFinale}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="bottone">
+      <th mat-header-cell *matHeaderCellDef class="ColonnaBottone"></th>
+      <td mat-cell *matCellDef="let element"> <button mat-raised-button color="primary" (click)="vedi(element.id)">VEDI</button> </td>
+    </ng-container>
+  
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
