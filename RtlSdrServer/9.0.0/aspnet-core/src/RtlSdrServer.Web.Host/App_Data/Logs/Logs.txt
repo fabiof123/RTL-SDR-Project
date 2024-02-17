@@ -1,0 +1,40 @@
+DEBUG 2024-01-15 19:18:00,066 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-01-15 19:18:01,663 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2024-01-15 19:18:01,731 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.Web.Host.Startup.RtlSdrServerWebHostModule, RtlSdrServer.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,734 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.RtlSdrServerWebCoreModule, RtlSdrServer.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,735 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.RtlSdrServerApplicationModule, RtlSdrServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.RtlSdrServerCoreModule, RtlSdrServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,736 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.EntityFrameworkCore.RtlSdrServerEntityFrameworkModule, RtlSdrServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:01,762 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2024-01-15 19:18:02,540 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-15 19:18:02,540 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-15 19:18:02,540 [1    ] o.Configuration.LanguageManagementConfig - Converted RtlSdrServer (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-15 19:18:02,540 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-01-15 19:18:04,580 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: RtlSdrServer.EntityFrameworkCore.RtlSdrServerDbContext, RtlSdrServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-01-15 19:18:04,915 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-01-15 19:18:05,212 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-01-15 19:18:05,369 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-01-15 19:18:05,411 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: RtlSdrServer
+DEBUG 2024-01-15 19:18:05,453 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-01-15 19:18:05,472 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-01-15 19:18:05,601 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[RtlSdrServer.MultiTenancy.Tenant, RtlSdrServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RtlSdrServer.Authorization.Users.User, RtlSdrServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-01-15 19:18:05,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2024-01-15 19:18:05,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Users.Dto.CreateUserDto
+DEBUG 2024-01-15 19:18:05,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Users.Dto.UserDto
+DEBUG 2024-01-15 19:18:05,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-01-15 19:18:05,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-01-15 19:18:05,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Roles.Dto.PermissionDto
+DEBUG 2024-01-15 19:18:05,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-01-15 19:18:05,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.MultiTenancy.Dto.TenantDto
+ERROR 2024-01-15 19:18:21,501 [1    ] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'RtlSdrServerDb' on server 'localhost'.
+ERROR 2024-01-15 19:18:21,501 [orker] .EntityFrameworkCore.Database.Connection - An error occurred using the connection to database 'RtlSdrServerDb' on server 'localhost'.

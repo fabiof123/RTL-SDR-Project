@@ -1,0 +1,375 @@
+DEBUG 2024-02-16 19:23:31,514 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2024-02-16 19:23:32,348 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2024-02-16 19:23:32,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.Web.Startup.RtlSdrServerWebMvcModule, RtlSdrServer.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.RtlSdrServerWebCoreModule, RtlSdrServer.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.RtlSdrServerApplicationModule, RtlSdrServer.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,410 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.RtlSdrServerCoreModule, RtlSdrServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,411 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,414 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,416 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,418 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,419 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.EntityFrameworkCore.RtlSdrServerEntityFrameworkModule, RtlSdrServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,420 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,421 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,422 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=9.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,423 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: RtlSdrServer.Lettura.Application.LetturaModule, RtlSdrServer.Lettura.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:32,431 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2024-02-16 19:23:32,687 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-16 19:23:32,687 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-16 19:23:32,687 [1    ] o.Configuration.LanguageManagementConfig - Converted RtlSdrServer (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-16 19:23:32,687 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2024-02-16 19:23:33,821 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: RtlSdrServer.EntityFrameworkCore.RtlSdrServerDbContext, RtlSdrServer.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:34,164 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: RtlSdrServer.Lettura.Application.LetturaDbContext, RtlSdrServer.Lettura.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2024-02-16 19:23:34,389 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2024-02-16 19:23:34,597 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2024-02-16 19:23:34,738 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2024-02-16 19:23:34,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: RtlSdrServer
+DEBUG 2024-02-16 19:23:34,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2024-02-16 19:23:34,869 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2024-02-16 19:23:34,888 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[RtlSdrServer.MultiTenancy.Tenant, RtlSdrServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[RtlSdrServer.Authorization.Users.User, RtlSdrServer.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2024-02-16 19:23:34,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2024-02-16 19:23:34,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Users.Dto.CreateUserDto
+DEBUG 2024-02-16 19:23:34,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Users.Dto.UserDto
+DEBUG 2024-02-16 19:23:34,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2024-02-16 19:23:34,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Sessions.Dto.UserLoginInfoDto
+DEBUG 2024-02-16 19:23:34,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Roles.Dto.PermissionDto
+DEBUG 2024-02-16 19:23:34,956 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2024-02-16 19:23:34,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.MultiTenancy.Dto.TenantDto
+DEBUG 2024-02-16 19:23:34,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+DEBUG 2024-02-16 19:23:34,957 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - RtlSdrServer.Web.Models.Roles.EditRoleModalViewModel
+INFO  2024-02-16 19:23:39,777 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name]
+FROM [AbpEditions] AS [a]
+WHERE [a].[Name] = N'Standard'
+INFO  2024-02-16 19:23:40,069 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (32ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,085 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (30ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:23:40,123 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (14ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,130 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,145 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,154 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,162 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,174 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,188 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,206 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,216 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,228 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,236 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,247 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@__language_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpLanguages] AS [a]
+        WHERE [a].[TenantId] IS NULL AND [a].[Name] = @__language_Name_1) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,277 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] IS NULL AND [a].[Name] = N'Admin'
+INFO  2024-02-16 19:23:40,395 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__adminRoleForHost_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE [a].[Discriminator] = N'RolePermissionSetting' AND [a].[TenantId] IS NULL AND [a].[RoleId] = @__adminRoleForHost_Id_0
+INFO  2024-02-16 19:23:40,422 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] IS NULL AND [a].[UserName] = N'admin'
+INFO  2024-02-16 19:23:40,603 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND [a].[TenantId] IS NULL AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,618 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND [a].[TenantId] IS NULL AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,630 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__name_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [AbpSettings] AS [a]
+        WHERE [a].[Name] = @__name_0 AND [a].[TenantId] IS NULL AND [a].[UserId] IS NULL) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+INFO  2024-02-16 19:23:40,791 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConnectionString], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EditionId], [a].[IsActive], [a].[IsDeleted], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenancyName]
+FROM [AbpTenants] AS [a]
+WHERE [a].[TenancyName] = N'Default'
+INFO  2024-02-16 19:23:40,858 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (4ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[Description], [a].[DisplayName], [a].[IsDefault], [a].[IsDeleted], [a].[IsStatic], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[NormalizedName], [a].[TenantId]
+FROM [AbpRoles] AS [a]
+WHERE [a].[TenantId] = @___tenantId_0 AND [a].[Name] = N'Admin'
+INFO  2024-02-16 19:23:40,869 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@___tenantId_0='?' (DbType = Int32), @__adminRole_Id_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Name]
+FROM [AbpPermissions] AS [a]
+WHERE [a].[Discriminator] = N'RolePermissionSetting' AND [a].[TenantId] = @___tenantId_0 AND [a].[RoleId] = @__adminRole_Id_1
+INFO  2024-02-16 19:23:40,890 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@___tenantId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[AuthenticationSource], [a].[ConcurrencyStamp], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[EmailAddress], [a].[EmailConfirmationCode], [a].[IsActive], [a].[IsDeleted], [a].[IsEmailConfirmed], [a].[IsLockoutEnabled], [a].[IsPhoneNumberConfirmed], [a].[IsTwoFactorEnabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[LockoutEndDateUtc], [a].[Name], [a].[NormalizedEmailAddress], [a].[NormalizedUserName], [a].[Password], [a].[PasswordResetCode], [a].[PhoneNumber], [a].[SecurityStamp], [a].[Surname], [a].[TenantId], [a].[UserName]
+FROM [AbpUsers] AS [a]
+WHERE [a].[TenantId] = @___tenantId_0 AND [a].[UserName] = N'admin'
+INFO  2024-02-16 19:23:41,113 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @__ef_filter__p_1='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[DeleterUserId], [a].[DeletionTime], [a].[DisplayName], [a].[Icon], [a].[IsDeleted], [a].[IsDisabled], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId]
+FROM [AbpLanguages] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[IsDeleted] = CAST(0 AS bit)) AND (@__ef_filter__p_1 = CAST(1 AS bit) OR [a].[TenantId] IS NULL)
+INFO  2024-02-16 19:23:41,277 [1    ] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Name], [a].[TenantId], [a].[UserId], [a].[Value]
+FROM [AbpSettings] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[UserId] IS NULL AND [a].[TenantId] IS NULL
+INFO  2024-02-16 19:23:41,346 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,fa,ja,zh-Hans
+INFO  2024-02-16 19:23:42,648 [1    ] Microsoft.Hosting.Lifetime               - Application started. Press Ctrl+C to shut down.
+INFO  2024-02-16 19:23:42,665 [1    ] Microsoft.Hosting.Lifetime               - Hosting environment: Development
+INFO  2024-02-16 19:23:42,669 [1    ] Microsoft.Hosting.Lifetime               - Content root path: C:\Sviluppo\RTL-SDR\RtlSdrServer\9.0.0\aspnet-core\src\RtlSdrServer.Web.Mvc
+INFO  2024-02-16 19:23:42,766 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/swagger/index.html - - -
+INFO  2024-02-16 19:23:42,766 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/ - - -
+INFO  2024-02-16 19:23:43,437 [orker] uthorization.DefaultAuthorizationService - Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+INFO  2024-02-16 19:23:43,447 [orker] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was challenged.
+INFO  2024-02-16 19:23:43,462 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/ - 499 - - 712.5252ms
+INFO  2024-02-16 19:23:43,706 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/swagger/index.html - 200 - text/html;charset=utf-8 954.4450ms
+INFO  2024-02-16 19:23:43,860 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - - -
+INFO  2024-02-16 19:23:43,863 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/_vs/browserLink - - -
+INFO  2024-02-16 19:23:43,893 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_framework/aspnetcore-browser-refresh.js - 200 13776 application/javascript;+charset=utf-8 34.2430ms
+INFO  2024-02-16 19:23:44,232 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 372.8423ms
+INFO  2024-02-16 19:23:44,622 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/2 GET https://localhost:44312/swagger/v1/swagger.json - - -
+INFO  2024-02-16 19:23:45,132 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/2 GET https://localhost:44312/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 507.8289ms
+INFO  2024-02-16 19:23:45,328 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (20ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:23:50,360 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:23:55,410 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:24:00,510 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (9ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:24:00,726 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/api/services/app/Lettura/GetLettura?id=11 - - -
+INFO  2024-02-16 19:24:00,786 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.GetLettura (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:00,978 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetLettura", controller = "Lettura"}. Executing controller action with signature System.Threading.Tasks.Task`1[RtlSdrServer.Lettura.Application.Dto.LetturaDettaglioDto] GetLettura(Int64) on controller RtlSdrServer.Lettura.Application.LetturaApplicationService (RtlSdrServer.Lettura.Application).
+INFO  2024-02-16 19:24:01,661 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (63ms) [Parameters=[@__p_0='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[Id], [t].[Data], [t].[FrequenzaFinale], [t].[FrequenzaIniziale], [t].[PosizioneLatitudine], [t].[PosizioneLongitudine], [p].[Id], [p].[Frequenza], [p].[LetturaId], [p].[Valore]
+FROM (
+    SELECT TOP(1) [l].[Id], [l].[Data], [l].[FrequenzaFinale], [l].[FrequenzaIniziale], [l].[PosizioneLatitudine], [l].[PosizioneLongitudine]
+    FROM [Letture] AS [l]
+    WHERE [l].[Id] = @__p_0
+) AS [t]
+LEFT JOIN [PotenzaSegnali] AS [p] ON [t].[Id] = [p].[LetturaId]
+ORDER BY [t].[Id]
+INFO  2024-02-16 19:24:02,240 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-02-16 19:24:02,405 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-16 19:24:02,555 [orker] c.Infrastructure.ControllerActionInvoker - Executed action RtlSdrServer.Lettura.Application.LetturaApplicationService.GetLettura (RtlSdrServer.Lettura.Application) in 1557.8528ms
+INFO  2024-02-16 19:24:02,562 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.GetLettura (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:02,575 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/api/services/app/Lettura/GetLettura?id=11 - 200 526 application/json;+charset=utf-8 1848.9529ms
+INFO  2024-02-16 19:24:05,559 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:24:06,018 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET https://localhost:44312/api/services/app/Lettura/GetListaLetture - - -
+INFO  2024-02-16 19:24:06,033 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.GetListaLetture (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:06,075 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetListaLetture", controller = "Lettura"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[RtlSdrServer.Lettura.Application.Dto.LetturaDto]] GetListaLetture(RtlSdrServer.Lettura.Application.Dto.LettureFiltroInput) on controller RtlSdrServer.Lettura.Application.LetturaApplicationService (RtlSdrServer.Lettura.Application).
+INFO  2024-02-16 19:24:06,207 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [l].[Id], [l].[Data], [l].[FrequenzaIniziale], [l].[FrequenzaFinale], [l].[PosizioneLatitudine] AS [Latitudine], [l].[PosizioneLongitudine] AS [Longitudine]
+FROM [Letture] AS [l]
+INFO  2024-02-16 19:24:06,276 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-02-16 19:24:06,301 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-16 19:24:06,324 [orker] c.Infrastructure.ControllerActionInvoker - Executed action RtlSdrServer.Lettura.Application.LetturaApplicationService.GetListaLetture (RtlSdrServer.Lettura.Application) in 233.9272ms
+INFO  2024-02-16 19:24:06,347 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.GetListaLetture (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:06,383 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 GET https://localhost:44312/api/services/app/Lettura/GetListaLetture - 200 1932 application/json;+charset=utf-8 334.8752ms
+INFO  2024-02-16 19:24:10,586 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:24:14,185 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST https://localhost:44312/api/services/app/Lettura/CreateLettura - application/json 451
+INFO  2024-02-16 19:24:14,197 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.CreateLettura (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:14,220 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateLettura", controller = "Lettura"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] CreateLettura(RtlSdrServer.Lettura.Application.Dto.LetturaInput) on controller RtlSdrServer.Lettura.Application.LetturaApplicationService (RtlSdrServer.Lettura.Application).
+INFO  2024-02-16 19:24:14,696 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+ERROR 2024-02-16 19:24:14,716 [orker] Mvc.ExceptionHandling.AbpExceptionFilter - Range di frequenze non valido
+RtlSdrServer.Lettura.Application.Exceptions.FrequenzaNonValidaExceptions: Range di frequenze non valido
+   at RtlSdrServer.Lettura.Application.Lettura.Crea(DateTime data, Decimal frequenzaIniziale, Decimal frequenzaFinale, Decimal latitudine, Decimal longitudine) in C:\Sviluppo\RTL-SDR\RtlSdrServer\9.0.0\aspnet-core\src\RtlSdrServer.Lettura.Application\Lettura.cs:line 31
+   at RtlSdrServer.Lettura.Application.LetturaApplicationService.CreateLettura(LetturaInput input) in C:\Sviluppo\RTL-SDR\RtlSdrServer\9.0.0\aspnet-core\src\RtlSdrServer.Lettura.Application\LetturaApplicationService.cs:line 41
+   at lambda_method1897(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2024-02-16 19:24:14,786 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (10ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean), @___sourceName_0='?' (Size = 128), @__CultureInfo_Name_1='?' (Size = 128)], CommandType='Text', CommandTimeout='30']
+SELECT [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[Key], [a].[LanguageName], [a].[LastModificationTime], [a].[LastModifierUserId], [a].[Source], [a].[TenantId], [a].[Value]
+FROM [AbpLanguageTexts] AS [a]
+WHERE (@__ef_filter__p_0 = CAST(1 AS bit) OR [a].[TenantId] IS NULL) AND [a].[Source] = @___sourceName_0 AND [a].[LanguageName] = @__CultureInfo_Name_1
+INFO  2024-02-16 19:24:14,800 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-16 19:24:14,952 [orker] c.Infrastructure.ControllerActionInvoker - Executed action RtlSdrServer.Lettura.Application.LetturaApplicationService.CreateLettura (RtlSdrServer.Lettura.Application) in 585.5962ms
+INFO  2024-02-16 19:24:14,972 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.CreateLettura (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:14,982 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 POST https://localhost:44312/api/services/app/Lettura/CreateLettura - 500 207 application/json;+charset=utf-8 792.5190ms
+INFO  2024-02-16 19:24:15,659 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (24ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:24:20,689 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
+INFO  2024-02-16 19:24:23,677 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST https://localhost:44312/api/services/app/Lettura/CreateLettura - application/json 452
+INFO  2024-02-16 19:24:23,682 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.CreateLettura (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:23,694 [orker] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "CreateLettura", controller = "Lettura"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] CreateLettura(RtlSdrServer.Lettura.Application.Dto.LetturaInput) on controller RtlSdrServer.Lettura.Application.LetturaApplicationService (RtlSdrServer.Lettura.Application).
+INFO  2024-02-16 19:24:23,892 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p2='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p3='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p4='?' (Precision = 20) (Scale = 10) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Letture] ([Data], [FrequenzaFinale], [FrequenzaIniziale], [PosizioneLatitudine], [PosizioneLongitudine])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4);
+INFO  2024-02-16 19:24:23,924 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (8ms) [Parameters=[@p5='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p6='?' (DbType = Int64), @p7='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p8='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p9='?' (DbType = Int64), @p10='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p11='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p12='?' (DbType = Int64), @p13='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p14='?' (Precision = 20) (Scale = 10) (DbType = Decimal), @p15='?' (DbType = Int64), @p16='?' (Precision = 20) (Scale = 10) (DbType = Decimal)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+MERGE [PotenzaSegnali] USING (
+VALUES (@p5, @p6, @p7, 0),
+(@p8, @p9, @p10, 1),
+(@p11, @p12, @p13, 2),
+(@p14, @p15, @p16, 3)) AS i ([Frequenza], [LetturaId], [Valore], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Frequenza], [LetturaId], [Valore])
+VALUES (i.[Frequenza], i.[LetturaId], i.[Valore])
+OUTPUT INSERTED.[Id], i._Position;
+INFO  2024-02-16 19:24:23,965 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@p0='?' (Size = 512), @p1='?' (Size = 64), @p2='?' (Size = 128), @p3='?' (Size = 2000), @p4='?' (Size = 2000), @p5='?' (Size = 1024), @p6='?' (DbType = Int32), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (DbType = Int64), @p10='?' (Size = 256), @p11='?' (Size = 1024), @p12='?' (Size = 4000), @p13='?' (Size = 256), @p14='?' (DbType = Int32), @p15='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpAuditLogs] ([BrowserInfo], [ClientIpAddress], [ClientName], [CustomData], [Exception], [ExceptionMessage], [ExecutionDuration], [ExecutionTime], [ImpersonatorTenantId], [ImpersonatorUserId], [MethodName], [Parameters], [ReturnValue], [ServiceName], [TenantId], [UserId])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);
+INFO  2024-02-16 19:24:24,009 [orker] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2024-02-16 19:24:24,022 [orker] c.Infrastructure.ControllerActionInvoker - Executed action RtlSdrServer.Lettura.Application.LetturaApplicationService.CreateLettura (RtlSdrServer.Lettura.Application) in 316.3759ms
+INFO  2024-02-16 19:24:24,028 [orker] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'RtlSdrServer.Lettura.Application.LetturaApplicationService.CreateLettura (RtlSdrServer.Lettura.Application)'
+INFO  2024-02-16 19:24:24,032 [orker] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished HTTP/1.1 POST https://localhost:44312/api/services/app/Lettura/CreateLettura - 200 99 application/json;+charset=utf-8 356.7299ms
+INFO  2024-02-16 19:24:25,709 [orker] oft.EntityFrameworkCore.Database.Command - Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__Now_0='?' (DbType = DateTime2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_1) [a].[Id], [a].[CreationTime], [a].[CreatorUserId], [a].[IsAbandoned], [a].[JobArgs], [a].[JobType], [a].[LastTryTime], [a].[NextTryTime], [a].[Priority], [a].[TryCount]
+FROM [AbpBackgroundJobs] AS [a]
+WHERE [a].[IsAbandoned] = CAST(0 AS bit) AND [a].[NextTryTime] <= @__Now_0
+ORDER BY [a].[Priority] DESC, [a].[TryCount], [a].[NextTryTime]
