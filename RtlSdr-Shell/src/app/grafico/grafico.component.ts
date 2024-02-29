@@ -63,7 +63,7 @@ export class GraficoComponent implements OnInit{
         data: [],
         label: 'Potenza Segnale [DB]',
         yAxisID: 'y',
-        backgroundColor: 'rgba(81,45,168 ,0.3)',
+        backgroundColor: 'rgba(81,45,168 ,0)',
         borderColor: '#512DA8',
         pointBackgroundColor: 'rgba(148,159,177,1)',
         pointBorderColor: '#fff',

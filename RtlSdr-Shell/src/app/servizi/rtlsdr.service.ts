@@ -5,7 +5,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
   providedIn: 'root'
 })
 export class RtlsdrService {
-  baseurl: string = 'https://localhost:44312/api/services/app/Lettura/';
+  baseurl: string = 'http://fabiof123-001-site2.jtempurl.com/api/services/app/Lettura/';
 
   constructor(private http: HttpClient) { }
 
